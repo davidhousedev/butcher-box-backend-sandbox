@@ -1,18 +1,21 @@
 # ButcherBox Backend Sandbox
+
 In this project, we take the same data model and implement it in
 multiple different web frameworks to prototype which implementation
 should be the next iteration of the ButcherBox backend.
 
 # Schema
+
 For this project, use the same schema to create your POCs.
 
 **Note**: Apply this schema using the best patterns available to the
 tool that you're using. For example, for attributes `array of...`,
 you may choose to implement this as a Foreign Key relationship from
 the related model, rather than an array type in the declared model.
-*Use your best judgement to write maintainble patterns*.
+_Use your best judgement to write maintainble patterns_.
 
 ## Models
+
 ```
 Legend:
 ! : Required
@@ -57,7 +60,7 @@ Subscription
   customer:            !relation->Customer
   box_type_preference: !relation->BoxType
   next_box:            relation->Box (null)
-  
+
 Customer
   id:    !int PRIMARY_KEY
   uid:   !str UUID4
@@ -76,10 +79,13 @@ User
 ```
 
 ## API
+
 ```
-Legend:
+Format:
 route
 METHOD: REQUEST_BODY -> RESPONSE_BODY
+
+Legend:
 ! : Admin required
 ~ : User or Admin required
 

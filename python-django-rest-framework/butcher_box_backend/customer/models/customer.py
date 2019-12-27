@@ -18,3 +18,6 @@ class Customer(UuidIdModel):
             "from subscription data, for e.g. managing CCPA requirements."
         ),
     )
+
+    def __str__(self):
+        return f"{self.user}"

@@ -40,3 +40,6 @@ class BoxType(UuidIdModel):
             "chosen by the user? Are they always the same?"
         ),
     )
+
+    def __str__(self):
+        return f"{self.name} - {self.description[:40]} ({str(self._type).capitalize()})"

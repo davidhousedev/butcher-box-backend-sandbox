@@ -12,7 +12,7 @@ For this project, use the same schema to create your POCs.
 tool that you're using. For example, for attributes `array of...`,
 you may choose to implement this as a Foreign Key relationship from
 the related model, rather than an array type in the declared model.
-_Use your best judgement to write maintainble patterns_.
+_Use your best judgement to write maintainable patterns_.
 
 ## Models
 

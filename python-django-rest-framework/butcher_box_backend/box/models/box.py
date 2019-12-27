@@ -34,3 +34,6 @@ class Box(UuidIdModel):
         on_delete=models.PROTECT,
         help_text="Who was billed for this box.",
     )
+
+    def __str__(self):
+        return f"{self._type.name} box for {self.customer}"

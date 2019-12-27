@@ -53,3 +53,9 @@ class Subscription(UuidIdModel):  # pylint: disable=too-few-public-methods
         default=None,
         help_text="The instance of the next box to be delivered to this subscription.",
     )
+
+    def __str__(self):
+        return (
+            f'{self.customer}\'s {"active" if self.bill_date else "inactive"} '
+            "subscription for {self.box_type_preference}"
+        )

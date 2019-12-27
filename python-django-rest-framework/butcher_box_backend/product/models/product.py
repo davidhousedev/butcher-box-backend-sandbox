@@ -19,3 +19,6 @@ class Product(UuidIdModel):
     description = models.TextField(max_length=511)
     weight_g = models.IntegerField()
     size_cubic_cm = models.IntegerField()
+
+    def __str__(self):
+        return f"{self.name} - {self.description[:40]}"

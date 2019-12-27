@@ -40,3 +40,6 @@ class BoxItem(UuidIdModel):
         default=BoxItemTypes.SUBSCRIPTION.name,
         db_column="type",
     )
+
+    def __str__(self):
+        return f"{self.product} ({self._type})"

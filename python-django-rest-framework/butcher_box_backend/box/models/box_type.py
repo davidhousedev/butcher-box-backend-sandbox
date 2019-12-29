@@ -42,4 +42,7 @@ class BoxType(UuidIdModel):
     )
 
     def __str__(self):
-        return f"{self.name} - {self.description[:40]} ({str(self._type).capitalize()})"
+        return (
+            f"{self.name} - {self.description[:40]} ({str(self._type).capitalize()}) "
+            "[{self.uid}]"
+        )

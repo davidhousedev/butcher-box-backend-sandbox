@@ -42,4 +42,4 @@ class BoxItem(UuidIdModel):
     )
 
     def __str__(self):
-        return f"{self.product} ({self._type})"
+        return f"{self.product} ({self._type}) [{self.uid}]"

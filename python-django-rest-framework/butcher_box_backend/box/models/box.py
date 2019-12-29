@@ -36,4 +36,4 @@ class Box(UuidIdModel):
     )
 
     def __str__(self):
-        return f"{self._type.name} box for {self.customer}"
+        return f"{self._type.name} box for {self.customer} [{self.uid}]"

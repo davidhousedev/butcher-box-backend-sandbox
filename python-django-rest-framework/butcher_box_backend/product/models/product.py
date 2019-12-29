@@ -21,4 +21,4 @@ class Product(UuidIdModel):
     size_cubic_cm = models.IntegerField()
 
     def __str__(self):
-        return f"{self.name} - {self.description[:40]}"
+        return f"{self.name} - {self.description[:40]} [{self.uid}]"

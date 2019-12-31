@@ -34,6 +34,10 @@ Feel free to add more implementation ideas below!
   - [ ] Assigned
   - [ ] Completed
   - [ ] Retrospective
+- [GraphQL with Node and Pirsma](https://www.prisma.io/tutorials/bootstrap-a-graphql-server-for-nodejs-ct10)
+  - [ ] Assigned
+  - [ ] Completed
+  - [ ] Retrospective
 
 # Schema
 

@@ -4,6 +4,37 @@ In this project, we take the same data model and implement it in
 multiple different web frameworks to prototype which implementation
 should be the next iteration of the ButcherBox backend.
 
+# Implementations
+
+For each implementation, if you plan to work on it, assign it to
+yoourself in the checkbox below. Once complete, update the next
+checkbox. Then, create a Google Document, share it with
+contributors, and link it below. Once the retrospective is
+complete, check off the final checkbox.
+
+Feel free to add more implementation ideas below!
+
+- [Django Rest Framework](https://www.django-rest-framework.org/)
+  - [x] Assigned: David House
+  - [ ] Completed
+  - [ ] Retrospective
+- [Hasura](https://hasura.io/)
+  - [ ] Assigned
+  - [ ] Completed
+  - [ ] Retrospective
+- [Django Graphene](https://graphene-python.org/)
+  - [ ] Assigned
+  - [ ] Completed
+  - [ ] Retrospective
+- [Serverless JavaScript](https://github.com/serverless/serverless)
+  - [ ] Assigned
+  - [ ] Completed
+  - [ ] Retrospective
+- [Lumen REST](https://auth0.com/blog/developing-restful-apis-with-lumen/)
+  - [ ] Assigned
+  - [ ] Completed
+  - [ ] Retrospective
+
 # Schema
 
 For this project, use the same schema to create your POCs.

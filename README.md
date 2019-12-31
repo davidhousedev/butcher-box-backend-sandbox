@@ -7,7 +7,7 @@ should be the next iteration of the ButcherBox backend.
 # Implementations
 
 For each implementation, if you plan to work on it, assign it to
-yoourself in the checkbox below. Once complete, update the next
+yourself in the checkbox below. Once complete, update the next
 checkbox. Then, create a Google Document, share it with
 contributors, and link it below. Once the retrospective is
 complete, check off the final checkbox.

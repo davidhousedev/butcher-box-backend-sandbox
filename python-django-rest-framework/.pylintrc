@@ -1,0 +1,15 @@
+# cSpell:disable
+[MASTER]
+# Python code to execute, usually for sys.path manipulation such as
+# pygtk.require().
+init-hook='import sys; sys.path.append("./python-django-rest-framework/butcher_box_backend")'
+
+# List of plugins (as comma separated values of python module names) to load,
+# usually to register additional checkers.
+load-plugins=pylint_django
+
+disable=
+  fixme,
+  missing-module-docstring,
+  missing-class-docstring,
+  too-many-ancestors
